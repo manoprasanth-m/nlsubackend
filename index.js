@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-const confessions = require('./routes/confessions')
+const confessions = require('./src/routes/confessions')
 const port = process.env.PORT || 3000;
 const path = require('path')
 
