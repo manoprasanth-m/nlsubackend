@@ -4,7 +4,7 @@ const confessions = require('./src/routes/confessions')
 const port = process.env.PORT || 3000;
 const path = require('path')
 
-require('./db/mongoose')
+require('./src/db/mongoose')
 
 // app.use(function(req, res, next) {
 //     res.header("Access-Control-Allow-Origin", "*"); // update to match the domain you will make the request from
